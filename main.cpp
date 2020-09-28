@@ -19,6 +19,7 @@ int main()
         cout<<"3. Mostrar"<<endl;
         cout<<"4. Guardar"<<endl;
         cout<<"5. Recuperar"<<endl;
+        cout<<"6. Sumar dos Numeros"<<endl;
         cout <<"0. Salir "<<endl;
         cout <<"Elige tu opcion: "; cin>>op; cout<<endl<<endl;
 
@@ -52,7 +53,17 @@ int main()
             system("pause");
             cout<<"Información Recuperada"<<endl;
         }
+        
+        else if (op==6) {
+            int x = Sumar(6,7);
+            cout<<"Suma: " << x <<endl;
+            system("pause");
+        }
+
 
     }while(op!=0);
 }
 
+int Sumar(int x, int y){
+    return x+y;
+}
