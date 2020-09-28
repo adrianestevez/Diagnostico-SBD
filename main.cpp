@@ -63,6 +63,7 @@ int main()
          else if (op==7) {
             int x = Restar(5,2);
             cout<<"Resta: " << x <<endl;
+            cout<<"Esta es una resta"<<endl;
             system("pause");
         }
 
