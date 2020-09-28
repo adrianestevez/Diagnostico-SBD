@@ -60,11 +60,23 @@ int main()
             system("pause");
         }
 
+         else if (op==7) {
+            int x = Restar(5,2);
+            cout<<"Resta: " << x <<endl;
+            cout<<"Esta es una resta"<<endl;
+            system("pause");
+        }
+
 
     }while(op!=0);
 }
 
 int Sumar(int x, int y){
     return x+y;
+}
+
+
+int Restar(int x, int y){
+    return x-y;
 }
 
